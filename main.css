@@ -1,0 +1,58 @@
+body {
+  background-color: #FAFAFA; }
+
+
+a,  p {
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif; }
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+
+}
+
+@media (min-width: 520px) {
+  .container {
+    grid-template-columns: repeat (2,50%);
+  }
+} 
+
+@media (min-width: 728px) {
+  .container {
+    grid-template-columns: repeat (3,33.3%);
+  }
+} 
+
+
+
+/* FOTITO RESPONSIVE /*
+
+.main {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+  .main img {
+    padding-top: 0px; }
+  .main .main-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .main .main-description h1 {
+      color: #F0CC17;
+      font-family: "Roboto", sans-serif;
+      font-size: 70px;
+      font-weight: bolder;
+      -webkit-text-stroke: 1px yellow;
+      color: transparent; }
+    .main .main-description .p-home {
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-size: 25px;
+      -webkit-text-stroke: 1px black;
+      color: yellow; }
+
+      */
+
