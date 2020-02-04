@@ -113,6 +113,14 @@ nav ul {
 .col-12 {
   text-align: center;
 }
+
+.icon {
+  padding-left: 16px;
+}
+
+.fa-behance-square {
+  padding-left: 16px;
+}
 /* FOTITO RESPONSIVE /*
 
 .main {
