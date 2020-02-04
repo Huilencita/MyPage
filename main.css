@@ -110,7 +110,9 @@ nav ul {
   list-style: none;
 }
 
-
+.col-12 {
+  text-align: center;
+}
 /* FOTITO RESPONSIVE /*
 
 .main {
