@@ -337,7 +337,7 @@ h2 {
 
   .headerDigital {
     grid-column: 1 / 1;
-    grid-row: 1 / span 45;
+    grid-row: 1 / span 24;
     display: block;
   }
   .grid-gallery__itemDigital:nth-child(3) {
@@ -370,6 +370,10 @@ h2 {
   }
   .grid-gallery__itemDigital:nth-child(20) {
     grid-row: span 3;
+    grid-column: span 2;
+  }
+  .grid-gallery__itemDigital:nth-child(21) {
+    grid-row: span 1;
     grid-column: span 2;
   }
   .grid-gallery__itemDigital:nth-child(22) {
