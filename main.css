@@ -6,6 +6,10 @@ a,  p, h2 {
     color: black;
     font-family: 'Open Sans Condensed', sans-serif; }
 
+i {
+  color: #FFCF1F;
+}
+
 
 /* STILOS EN INDEX */
 .grid-gallery {
