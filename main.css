@@ -166,8 +166,53 @@ h2 {
   font-weight: 100;
 
 }
+.menu-content {
+  font-family: 'Open Sans Condensed', sans-serif; 
+  padding: 0 0 0 50px;
+}
+.collapsible-menu {
+  background-color: #FAFAFA;;
+  padding: 5px 30px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.collapsible-menu a {
+  display:block;
+  padding: 10px;
+  text-decoration: none;
+}
+.collapsible-menu label {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  display: block;
+  cursor: pointer;
+  background: url(menu.png) no-repeat left center;
+  padding: 10px 0 10px 50px;
+  margin-top: 8px;
+}
+input#menu {
+  display: none;
+}
+input:checked +label {
+  background-image: url(cancel.png);
+}
 
-
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+  font-family: 'Open Sans Condensed', sans-serif; 
+  padding: 0 0 0 50px;
+}
+/* Toggle Effect */
+input:checked ~ label {
+  background-image: url(cancel.png);
+}
+input:checked ~ .menu-content {
+  max-height: 100%;
+}
 
 
 
@@ -318,6 +363,9 @@ h2 {
     grid-column: 1 / 1;
     grid-row: 1 / span 4;
   }
+  .collapsible-menu {
+    display: none;
+  }
 }
 
 @media all and (min-width: 1024px) {
@@ -453,6 +501,9 @@ h2 {
   
   .padding {
     padding-right: 15px;
+  }
+  .collapsible-menu {
+    display: none;
   }
 }
 
