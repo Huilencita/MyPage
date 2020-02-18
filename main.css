@@ -33,7 +33,7 @@ i {
   grid-column: span 2;
 }
 .grid-gallery__item:nth-child(4) {
-  grid-row: span 2;
+  grid-row: span 3;
   grid-column: span 2;
 }
 .grid-gallery__item:nth-child(5) {
@@ -44,8 +44,20 @@ i {
   grid-row: span 2;
   grid-column: span 2;
 }
+.grid-gallery__item:nth-child(7) {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+.grid-gallery__item:nth-child(6) {
+  grid-row: span 2;
+  grid-column: span 2;
+}
 .grid-gallery__item:nth-child(8) {
   grid-row: span 2;
+  grid-column: span 2;
+}
+.grid-gallery__item:nth-child(10) {
+  grid-row: span 3;
   grid-column: span 2;
 }
 .grid-gallery__item:nth-child(12) {
@@ -69,6 +81,10 @@ i {
   grid-column: span 2;
 }
 .grid-gallery__item:nth-child(19) {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+.grid-gallery__item:nth-child(20) {
   grid-row: span 3;
   grid-column: span 2;
 }
@@ -249,6 +265,9 @@ input:checked ~ .menu-content {
   .headerDigital {
     display: none;
   }
+  .header2 {
+    display: none;
+  }
   .grid-gallery__itemDigital:nth-child(3) {
     grid-column: 1 / 3 ;
     grid-row: span 1;
@@ -290,6 +309,29 @@ input:checked ~ .menu-content {
   }
   .grid-gallery__itemDigital:nth-child(29) {
     grid-row: span 2 ;
+  }
+  .description {
+    text-align: center;
+    align-self: center;
+  }
+  .imgAbout {
+    grid-row: 2 / span 2;
+    justify-self: center;
+    text-align: center;
+  }
+  .contact {
+    grid-row: 4 / 4 ;
+    justify-self: center;
+    text-align: center;
+    align-self: end;
+  }
+  i {
+    padding-right: 5px;
+  }
+  .footerAbout {
+    grid-row: 5 / 5;
+    text-align: center;
+    align-self: end;
   }
 }
     
@@ -362,13 +404,14 @@ input:checked ~ .menu-content {
   .header2 {
     grid-column: 1 / 1;
     grid-row: 1 / span 4;
+    display: block;
   }
   .collapsible-menu {
     display: none;
   }
 }
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1440px) {
   .grid-gallery {
     grid-template-columns: repeat(7, 1fr);
   }
@@ -490,6 +533,7 @@ input:checked ~ .menu-content {
   .header2 {
     grid-column: 1 / 1;
     grid-row: 1 / span 4;
+    display: block;
   }
   
   .contact{
@@ -513,32 +557,4 @@ input:checked ~ .menu-content {
 
 
 
-/* FOTITO RESPONSIVE /*
-
-.main {
-  position: relative;
-  display: inline-block;
-  text-align: center; }
-  .main img {
-    padding-top: 0px; }
-  .main .main-description {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-    .main .main-description h1 {
-      color: #F0CC17;
-      font-family: "Roboto", sans-serif;
-      font-size: 70px;
-      font-weight: bolder;
-      -webkit-text-stroke: 1px yellow;
-      color: transparent; }
-    .main .main-description .p-home {
-      color: white;
-      font-family: "Roboto", sans-serif;
-      font-size: 25px;
-      -webkit-text-stroke: 1px black;
-      color: yellow; }
-
-      */
 
