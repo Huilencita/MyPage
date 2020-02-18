@@ -57,11 +57,14 @@ i {
   grid-column: span 2;
 }
 .grid-gallery__item:nth-child(10) {
-  grid-row: span 3;
+  grid-row: span 2;
+  grid-column: span 2;
+}
+.grid-gallery__item:nth-child(11) {
+  grid-row: span 2;
   grid-column: span 2;
 }
 .grid-gallery__item:nth-child(12) {
-  grid-row: span 3;
   grid-column: span 2;
 }
 .grid-gallery__item:nth-child(13) {
