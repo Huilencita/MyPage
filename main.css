@@ -6,23 +6,23 @@ p, h2, h1 {
     font-family: 'Open Sans Condensed', sans-serif; }
 a {
   font-family: 'Open Sans Condensed', sans-serif;
-  color: rgba(0, 0, 0, 0.671);
+  color: black;
 }
 .index {
   color: rgba(0, 0, 0, 0.671);
-  font-weight: 400;
+  font-weight: 600;
 }
 .film {
-  color: black;
-  font-weight: 500;
+  color: rgba(0, 0, 0, 0.671);
+  font-weight: 600;
 }
 .digital {
-  color: black;
-  font-weight: 500;
+  color: rgba(0, 0, 0, 0.671);
+  font-weight: 600;
 }
 .about {
-  color: black;
-  font-weight: 500;
+  color: rgba(0, 0, 0, 0.671);
+  font-weight: 600;
 }
 a:hover {
   color: black;
@@ -195,6 +195,9 @@ input:checked ~ .menu-content {
   .header2 {
     display: none;
   }
+  .container404.h1404 {
+    font-size: 120px;
+  }
   .grid-gallery__item:nth-child(4) {
     grid-row: span 2;
   }
@@ -344,6 +347,11 @@ input:checked ~ .menu-content {
     grid-row: 5 / 5;
     text-align: center;
     align-self: end;
+  }
+  .h1404 {
+    font-size: 120px;
+    text-align: center;
+    font-weight: 500;
   }
 }
 
@@ -515,6 +523,11 @@ input:checked ~ .menu-content {
     text-align: center;
     align-self: end;
   }
+  .h1404 {
+    font-size: 150px;
+    text-align: center;
+    font-weight: 500;
+  }
 }
 
 @media all and (min-width: 425px) {
@@ -685,6 +698,11 @@ input:checked ~ .menu-content {
     text-align: center;
     align-self: end;
   }
+  .h1404 {
+    font-size: 150px;
+    text-align: center;
+    font-weight: 500;
+  }
 }
 
     
@@ -706,6 +724,9 @@ input:checked ~ .menu-content {
     grid-column: 1 / 1;
     display: block;
     grid-row: 1 / span 54;
+  }
+  .modal-sm {
+    max-width: 350px;
   }
 
   .grid-gallery__item:nth-child(4) {
@@ -900,6 +921,11 @@ input:checked ~ .menu-content {
   .collapsible-menu {
     display: none;
   }
+  .h1404 {
+    font-size: 150px;
+    text-align: center;
+    font-weight: 500;
+  }
 }
 
 @media all and (min-width: 1024px) {
@@ -923,6 +949,10 @@ input:checked ~ .menu-content {
     grid-column: 1 / 1;
     grid-row: 1 / span 18;
     display: block;
+  }
+
+  .modal-sm {
+    max-width: 400px;
   }
   .grid-gallery__item:nth-child(3) {
     grid-row: span 3;
@@ -1137,6 +1167,11 @@ input:checked ~ .menu-content {
   .collapsible-menu {
     display: none;
   }
+  .h1404 {
+    font-size: 150px;
+    text-align: center;
+    font-weight: 500;
+  }
 }
 
 @media all and (min-width: 1440px) {
@@ -1154,6 +1189,10 @@ input:checked ~ .menu-content {
     grid-column: 1 / 1;
     grid-row: 1 / span 14;
     display: block;
+  }
+
+  .modal-sm {
+    max-width: 450px;
   }
 
   .headerDigital {
@@ -1382,75 +1421,45 @@ input:checked ~ .menu-content {
   .collapsible-menu {
     display: none;
   }
+  .h1404 {
+    font-size: 150px;
+    text-align: center;
+    font-weight: 500;
+  }
+
 }
 
-.error404 {
-  display: flex;
-  flex-direction: column;
+
+
+.h2404 {
   text-align: center;
-  justify-self: center;
+  margin-bottom: 16px;
 }
 
-
-
-/*
-.word {
-  -webkit-text-stroke: 2px black;
-  color: transparent;
-  width: 600px;
-  font-size: 100px;
-  font-weight: 100;
-  line-height: 550px;
+.h3404 {
   text-align: center;
-  height: 550px;
- */ 
-.word {
-  -webkit-text-stroke: 2px black;
-  color: transparent;
-  width: 600px;
-  font-size: 100px;
-  font-weight: 200;
-  text-align: center;
-}
-.word2 {
-  color: black;
-  width: 600px;
-  font-size: 100px;
-  font-weight: 100;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
 }
 
-h3 {
-  color: #FFCF1F;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.911);
-  text-align: center;
-  font-weight: 400;
-  font-family: 'Roboto', sans-serif;
-  width: 600px;
-
-
+nav.index404 ul {
+  padding-left: 0px;
 }
 
 
-.error404 {
-  -webkit-animation: flicker 0.5s infinite;
-}
-
-@-webkit-keyframes flicker
-{
-0% {opacity:1;}
-9% {opacity:2;}
-10% {opacity:.4;}
-13% {opacity:3;}
-20% {opacity:.5;}
-25% {opacity:1;}
-}
 a:hover {
     text-decoration: none;
 }
 
-
+.container404 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+}
+.index404 {
+  text-align: center;
+  margin-top: 50px;
+}
 
 
 
